@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArbiShwari - Surebet Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ArbiShwari</h1>
+
+  <div class="controls">
+    <label for="profitFilter">Minimum Profit %:</label>
+    <input type="number" id="profitFilter" value="10" min="1">
+    <button onclick="setFilter()">Apply Filter</button>
+  </div>
+
+  <table id="arbTable">
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Bookmaker A</th>
+        <th>Odds A</th>
+        <th>Bookmaker B</th>
+        <th>Odds B</th>
+        <th>Stake A</th>
+        <th>Stake B</th>
+        <th>Profit %</th>
+      </tr>
+    </thead>
+    <tbody id="arbBody">
+      <!-- Arbitrage opportunities will appear here -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

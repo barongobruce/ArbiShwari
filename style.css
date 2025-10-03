@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2b7a0b;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#arbTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+#arbTable th, #arbTable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+#arbTable th {
+  background: #2b7a0b;
+  color: white;
+}
+
+.profit-positive {
+  color: green;
+  font-weight: bold;
+}
+
+.profit-negative {
+  color: red;
+  font-weight: bold;
+}
+
